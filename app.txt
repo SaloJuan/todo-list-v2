@@ -1,0 +1,12 @@
+-Tiene que haber proyectos que contengan tareas.
+-cada proyecto tiene un nombre, un ¿ID?
+-cada tarea tiene un ID (X00X siendo las X el proyecto y el n° de tarea por ejemplo), un duedate, un titulo y su informacion
+-un archivo que contenga la ifnormacion de los proyectos y las tareas.
+    Podria ser un objecto con todo junto, o varios objectos que representen cada proyecto y tarea.
+- variable global que controle el id del ultimo proyecto
+
+-el index deberia para seleccionar proyectos existentes, agregar nuevo proyecto y a la derecha para ver las tareas del project selecicoando.
+-al abrir un proyecto deberia aparecer para eliminarlo.
+
+-Al abrir un proyecto se desplegara un listado de tareas, las cuales van a ser ingestadas desde el archivo de storage mencionado arriba
+-
