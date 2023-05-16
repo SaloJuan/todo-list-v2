@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ToDo-List-v2</title>
+    <script defer src="./main.js"></script>
 </head>
 <body>
 
@@ -12,21 +13,23 @@
 
         <aside class="left-aside-toolbar">
 
-            <img src=".4u" alt="logo">
-
-            <button class="new-project-btn">new-project-btn</button>
-            <button class="view-all-projects-btn">view-all-projects-btn</button>
-            
+            <!-- ver por que hay que meter esto en /dist/src/assets y no puede buscarlo en /src nomas como una persona normal -->
+            <img class="app-logo-icon" src="./src/assets/app-logo.png" alt="logo">
             <br>
+
+            <button class="new-project-btn">New Project</button>
+            <button class="view-all-projects-btn">View All Projects</button>
             
-            <button class="project" id="1">proj1</button>
-            <button class="project" id="2">proj2</button>
+            <hr class="separator"/hr>
+
+            <button class="project-btn" id="1">Project 1</button>
+            <button class="project-btn" id="2">proj2</button>
 
             
         </aside>
 
         <div class="tasks-viewer">
-            asdsad
+            Aca van las tareas
         </div>
 
 

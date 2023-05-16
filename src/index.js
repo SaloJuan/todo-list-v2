@@ -1,6 +1,50 @@
-//import './styles.css'
+import './styles.css'
+import './aside.css'
+import {renderProject} from './renderProject'
+
+let taskViewer = document.querySelector('.tasks-viewer');
 
 let lastProjectId = 1;
+
+
+let projectBtns = document.querySelectorAll('.project-btn');
+
+projectBtns.forEach((elem) =>{
+
+    elem.addEventListener('click', (ev) =>{        
+        
+        let newTaskModule = renderProject(elem);        
+
+        taskViewer.appendChild(newTaskModule);
+    })
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**
  

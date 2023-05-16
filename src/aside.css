@@ -1,0 +1,44 @@
+aside{ 
+    
+    height:100vh;
+    min-width: 10vw;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.new-project-btn,
+.view-all-projects-btn{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin:2px;
+    border: white 3px solid;
+    border-radius:12%;
+    background-color: #86ff86e1;
+    color:black;
+    
+}
+
+.new-project-btn:hover,
+.view-all-projects-btn:hover{    
+    border: red 4px solid;
+    border-radius:12%;
+    height: 28px;
+    width: 150px;
+    font-size: 16px;
+
+}
+
+.project-btn{
+    background-color: peru;
+}
+
+.app-logo-icon{
+    height:100px;
+    width:100px;
+}
+
+.separator{ 
+    margin:10px;
+    border-bottom: 2px solid red;
+}
