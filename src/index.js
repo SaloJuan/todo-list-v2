@@ -1,5 +1,6 @@
 import './styles.css'
 import './aside.css'
+import './task-viewer.css'
 import {renderProject} from './renderProject'
 
 let taskViewer = document.querySelector('.tasks-viewer');

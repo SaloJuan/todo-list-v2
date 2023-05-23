@@ -3,13 +3,11 @@ let projects =
    proj1:
    {
     projId : 1,
-    tasks:
+    tasks: 
     {
-        title: 'Project 1',
-        taskContent:'info tarea project1'
-        
-
+       
     }
+    
 
    },
 

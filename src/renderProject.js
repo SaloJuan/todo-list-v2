@@ -3,9 +3,7 @@
 2) crear el elemento html que contenga las tareas
 3) validar si existe ya algun proyecto cargado en el viewer
 4) si existe, eliminar dicho proyuecto existente.
-5) devolver a index.js  el elemento creado 
-
-
+5) devolver a index.js  el elemento creado. Ya ese modulo se encarga de mostrar las tareas en pantalla.
 */
 
 import {projects} from './storage.js';

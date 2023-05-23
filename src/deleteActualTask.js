@@ -11,7 +11,7 @@ export function deleteActualTask(){
     }
     else 
         //la primera vez siempre fallara ya que no deberia existir tarea cargada en el viewer
-    console.log('no funcó el if de validar task-module');
+    console.log('no existen tareas en el viewer o no funcó el if de validar task-module');
 
 }
 
